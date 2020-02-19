@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A2CB1DF23FD0E4E00BE59ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2CB1DE23FD0E4E00BE59ED /* AppDelegate.swift */; };
+		5A2CB1E123FD0E4E00BE59ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2CB1E023FD0E4E00BE59ED /* SceneDelegate.swift */; };
+		5A2CB1E323FD0E4E00BE59ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2CB1E223FD0E4E00BE59ED /* ViewController.swift */; };
+		5A2CB1E623FD0E4E00BE59ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2CB1E423FD0E4E00BE59ED /* Main.storyboard */; };
+		5A2CB1E823FD0E5100BE59ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2CB1E723FD0E5100BE59ED /* Assets.xcassets */; };
+		5A2CB1EB23FD0E5100BE59ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2CB1E923FD0E5100BE59ED /* LaunchScreen.storyboard */; };
+		5A2CB1F623FD0E5100BE59ED /* RCPhotoAlbumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2CB1F523FD0E5100BE59ED /* RCPhotoAlbumTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A2CB1F223FD0E5100BE59ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A2CB1D323FD0E4E00BE59ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A2CB1DA23FD0E4E00BE59ED;
+			remoteInfo = RCPhotoAlbum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A2CB1DB23FD0E4E00BE59ED /* RCPhotoAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCPhotoAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2CB1DE23FD0E4E00BE59ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A2CB1E023FD0E4E00BE59ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5A2CB1E223FD0E4E00BE59ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A2CB1E523FD0E4E00BE59ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A2CB1E723FD0E5100BE59ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A2CB1EA23FD0E5100BE59ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A2CB1EC23FD0E5100BE59ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A2CB1F123FD0E5100BE59ED /* RCPhotoAlbumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCPhotoAlbumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2CB1F523FD0E5100BE59ED /* RCPhotoAlbumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RCPhotoAlbumTests.swift; sourceTree = "<group>"; };
+		5A2CB1F723FD0E5100BE59ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A2CB1D823FD0E4E00BE59ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2CB1EE23FD0E5100BE59ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A2CB1D223FD0E4E00BE59ED = {
+			isa = PBXGroup;
+			children = (
+				5A2CB1DD23FD0E4E00BE59ED /* RCPhotoAlbum */,
+				5A2CB1F423FD0E5100BE59ED /* RCPhotoAlbumTests */,
+				5A2CB1DC23FD0E4E00BE59ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A2CB1DC23FD0E4E00BE59ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A2CB1DB23FD0E4E00BE59ED /* RCPhotoAlbum.app */,
+				5A2CB1F123FD0E5100BE59ED /* RCPhotoAlbumTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A2CB1DD23FD0E4E00BE59ED /* RCPhotoAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				5A2CB20023FD0E8800BE59ED /* App Delegates */,
+				5A2CB20123FD0E9600BE59ED /* View Controllers */,
+				5A2CB20223FD0EA300BE59ED /* Models */,
+				5A2CB20323FD0EAE00BE59ED /* Views */,
+				5A2CB1E723FD0E5100BE59ED /* Assets.xcassets */,
+				5A2CB1EC23FD0E5100BE59ED /* Info.plist */,
+			);
+			path = RCPhotoAlbum;
+			sourceTree = "<group>";
+		};
+		5A2CB1F423FD0E5100BE59ED /* RCPhotoAlbumTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A2CB1F523FD0E5100BE59ED /* RCPhotoAlbumTests.swift */,
+				5A2CB1F723FD0E5100BE59ED /* Info.plist */,
+			);
+			path = RCPhotoAlbumTests;
+			sourceTree = "<group>";
+		};
+		5A2CB20023FD0E8800BE59ED /* App Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				5A2CB1DE23FD0E4E00BE59ED /* AppDelegate.swift */,
+				5A2CB1E023FD0E4E00BE59ED /* SceneDelegate.swift */,
+			);
+			path = "App Delegates";
+			sourceTree = "<group>";
+		};
+		5A2CB20123FD0E9600BE59ED /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5A2CB1E223FD0E4E00BE59ED /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5A2CB20223FD0EA300BE59ED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A2CB20323FD0EAE00BE59ED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A2CB1E423FD0E4E00BE59ED /* Main.storyboard */,
+				5A2CB1E923FD0E5100BE59ED /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A2CB1DA23FD0E4E00BE59ED /* RCPhotoAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A2CB1FA23FD0E5100BE59ED /* Build configuration list for PBXNativeTarget "RCPhotoAlbum" */;
+			buildPhases = (
+				5A2CB1D723FD0E4E00BE59ED /* Sources */,
+				5A2CB1D823FD0E4E00BE59ED /* Frameworks */,
+				5A2CB1D923FD0E4E00BE59ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCPhotoAlbum;
+			productName = RCPhotoAlbum;
+			productReference = 5A2CB1DB23FD0E4E00BE59ED /* RCPhotoAlbum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A2CB1F023FD0E5100BE59ED /* RCPhotoAlbumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A2CB1FD23FD0E5100BE59ED /* Build configuration list for PBXNativeTarget "RCPhotoAlbumTests" */;
+			buildPhases = (
+				5A2CB1ED23FD0E5100BE59ED /* Sources */,
+				5A2CB1EE23FD0E5100BE59ED /* Frameworks */,
+				5A2CB1EF23FD0E5100BE59ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A2CB1F323FD0E5100BE59ED /* PBXTargetDependency */,
+			);
+			name = RCPhotoAlbumTests;
+			productName = RCPhotoAlbumTests;
+			productReference = 5A2CB1F123FD0E5100BE59ED /* RCPhotoAlbumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A2CB1D323FD0E4E00BE59ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "dilgir siddiqui";
+				TargetAttributes = {
+					5A2CB1DA23FD0E4E00BE59ED = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					5A2CB1F023FD0E5100BE59ED = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 5A2CB1DA23FD0E4E00BE59ED;
+					};
+				};
+			};
+			buildConfigurationList = 5A2CB1D623FD0E4E00BE59ED /* Build configuration list for PBXProject "RCPhotoAlbum" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A2CB1D223FD0E4E00BE59ED;
+			productRefGroup = 5A2CB1DC23FD0E4E00BE59ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A2CB1DA23FD0E4E00BE59ED /* RCPhotoAlbum */,
+				5A2CB1F023FD0E5100BE59ED /* RCPhotoAlbumTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A2CB1D923FD0E4E00BE59ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2CB1EB23FD0E5100BE59ED /* LaunchScreen.storyboard in Resources */,
+				5A2CB1E823FD0E5100BE59ED /* Assets.xcassets in Resources */,
+				5A2CB1E623FD0E4E00BE59ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2CB1EF23FD0E5100BE59ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A2CB1D723FD0E4E00BE59ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2CB1E323FD0E4E00BE59ED /* ViewController.swift in Sources */,
+				5A2CB1DF23FD0E4E00BE59ED /* AppDelegate.swift in Sources */,
+				5A2CB1E123FD0E4E00BE59ED /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A2CB1ED23FD0E5100BE59ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2CB1F623FD0E5100BE59ED /* RCPhotoAlbumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A2CB1F323FD0E5100BE59ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A2CB1DA23FD0E4E00BE59ED /* RCPhotoAlbum */;
+			targetProxy = 5A2CB1F223FD0E5100BE59ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A2CB1E423FD0E4E00BE59ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A2CB1E523FD0E4E00BE59ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A2CB1E923FD0E5100BE59ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A2CB1EA23FD0E5100BE59ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A2CB1F823FD0E5100BE59ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A2CB1F923FD0E5100BE59ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A2CB1FB23FD0E5100BE59ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RCPhotoAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = retrocoder.RCPhotoAlbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A2CB1FC23FD0E5100BE59ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RCPhotoAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = retrocoder.RCPhotoAlbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A2CB1FE23FD0E5100BE59ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RCPhotoAlbumTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = retrocoder.RCPhotoAlbumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RCPhotoAlbum.app/RCPhotoAlbum";
+			};
+			name = Debug;
+		};
+		5A2CB1FF23FD0E5100BE59ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RCPhotoAlbumTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = retrocoder.RCPhotoAlbumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RCPhotoAlbum.app/RCPhotoAlbum";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A2CB1D623FD0E4E00BE59ED /* Build configuration list for PBXProject "RCPhotoAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2CB1F823FD0E5100BE59ED /* Debug */,
+				5A2CB1F923FD0E5100BE59ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A2CB1FA23FD0E5100BE59ED /* Build configuration list for PBXNativeTarget "RCPhotoAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2CB1FB23FD0E5100BE59ED /* Debug */,
+				5A2CB1FC23FD0E5100BE59ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A2CB1FD23FD0E5100BE59ED /* Build configuration list for PBXNativeTarget "RCPhotoAlbumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A2CB1FE23FD0E5100BE59ED /* Debug */,
+				5A2CB1FF23FD0E5100BE59ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A2CB1D323FD0E4E00BE59ED /* Project object */;
+}
