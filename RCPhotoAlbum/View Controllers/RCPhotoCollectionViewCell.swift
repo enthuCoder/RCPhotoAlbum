@@ -18,12 +18,13 @@ class RCPhotoCollectionViewCell: UICollectionViewCell {
         update(withImage: nil)
     }
     
-    
+    // Use this to clean up the cell before reuse
     override func prepareForReuse() {
         super.prepareForReuse()
         update(withImage: nil)
     }
     
+    // Helper method to update image in the cell
     func update(withImage image: UIImage?) {
         if let imageToDisplay = image {
             spinner.stopAnimating()

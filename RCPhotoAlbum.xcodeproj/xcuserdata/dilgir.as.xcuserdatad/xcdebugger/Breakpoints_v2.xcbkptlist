@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "86E2320A-5905-4A88-B52C-2D615BA3689C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE7B1035-DD61-4225-9D27-7BB38FFCEAB3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RCPhotoAlbum/View Controllers/RCPhotosViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "loadPhotos()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BE7B1035-DD61-4225-9D27-7BB38FFCEAB3 - 4ffe20bf77297598"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RCPhotoAlbum.PhotosResult) -&gt; () in RCPhotoAlbum.RCPhotosViewController.(loadPhotos in _31E86126FA1FD912A8D2A7310DA6A20D)() -&gt; ()"
+                  moduleName = "RCPhotoAlbum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dilgir.as/Documents/2019/Development/RetroCoder%20Git%20Samples/RCPhotoAlbum/RCPhotoAlbum/View%20Controllers/RCPhotosViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "BE7B1035-DD61-4225-9D27-7BB38FFCEAB3 - 4ffe20bf77297598"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RCPhotoAlbum.PhotosResult) -&gt; () in RCPhotoAlbum.RCPhotosViewController.(loadPhotos in _31E86126FA1FD912A8D2A7310DA6A20D)() -&gt; ()"
+                  moduleName = "RCPhotoAlbum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dilgir.as/Documents/2019/Development/RetroCoder%20Git%20Samples/RCPhotoAlbum/RCPhotoAlbum/View%20Controllers/RCPhotosViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "190">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "41B1A3D6-A039-42F2-A3BB-B2C0AF890A9F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RCPhotoAlbum/Network/RCFlickrAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "photosFromJSONObject(json:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
